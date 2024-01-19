@@ -1,0 +1,31 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome Checker</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+</head>
+
+<body>
+    <script src="script.js"></script>
+    <h2>Enter 5 words:</h2>
+    <input type="text" id="word1" required><br>
+    <input type="text" id="word2" required><br>
+    <input type="text" id="word3" required><br>
+    <input type="text" id="word4" required><br>
+    <input type="text" id="word5" required><br>
+    <button onclick="checkPalindromes()">Check Palindromes</button>
+
+    <h2>Palindrome Check Results:</h2>
+    <ul id="resultList"></ul>
+
+    <button onclick="downloadPDF()">Download Result as PDF</button>
+    
+
+
+</body>
+
+</html>
